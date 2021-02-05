@@ -1,23 +1,10 @@
 import { Dog } from './components/Dog.js';
+import { Cat } from './components/Cat.js';
 
 const rexas = new Dog('Rexas', 'brown');
-const rikis = new Dog('Rikis', 'white');
+const rainis = new Cat('Rainis', 'white');
 
-console.log(rexas);
+console.log(rainis.isStanding);
 
-rexas.walk(20);
-rexas.walk(20);
-rexas.walk(20);
-
-rexas.standUp();
-console.log(rexas);
-
-rexas.walk(20);
-rexas.walk(20);
-rexas.walk(20);
-console.log(rexas);
-
-rexas.sitDown();
-console.log(rexas);
-
-rexas.walk(20);
+rainis.standUp();
+console.log(rainis.isStanding);
